@@ -1,0 +1,487 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+a {
+    color: #0f0b0b;
+    padding: 0.6rem;
+}
+
+a:hover{
+    padding: 0.5rem;
+    background-color: rgb(172, 138, 144);
+}
+
+body {
+
+    font-family: 'Titillium Web', sans-serif;
+    color: #ffffff; 
+    background-color: #836363;
+    
+
+}
+.titulo-seccion{
+    text-align: center;
+}
+
+
+/* PAGINA INICIO */
+
+/* SECCION BIENVENIDA */
+
+.home .seccion-bienvenida{
+     /*inicio 1 the builder...*/
+     width: 100%;
+     height: 400px;
+     background: url(img/fondo-home.jpg) no-repeat center center #423c3cb5;
+     background-size: cover;
+     background-blend-mode: multiply;
+     text-align: center;
+     padding: 5rem;
+}
+.home .seccion-bienvenida .btn-contacto {
+    /*boton del inicio 1 the builder...*/
+    background-color: #f9bc60e6;
+    color: #001e1d;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 10px;
+    margin-top: 3rem;
+    border-radius: 7px;
+    text-align: center;
+    display: block;
+    max-width: 120px;
+    margin: auto;
+    margin-top: 2rem;
+}
+/* SECCION NOSOTROS */
+.nosotros {
+    padding: 1.5rem 0;
+    background-color: #654d4d;
+    padding-top: 1rem;
+}
+.nosotros .titulo-seccion{
+    font-size: 45px;
+    transform: translate(-350px, 120px); /*esto esta bien??? valores tan grandes?*/
+
+}
+
+.nosotros .contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nosotros .contenedor__texto, .nosotros .contenedor__foto{
+    width: 45%;
+}
+.nosotros .contenedor__texto{
+    color: #000;
+    padding: 2rem;
+    background-color: #fff;
+    margin-right: 2rem;
+    border-radius: 5px;
+}
+.nosotros .contenedor__foto .foto{
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* COMO TRABAJAMOS */
+.como-trabajamos .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #665252;
+    gap: 35px;
+    margin-top: 2rem;
+    padding: 2rem 0;
+}
+.grid__hijo{
+    background-color:#836363;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.grid__hijo--1{
+    grid-column: 2/3;
+}
+
+.grid__hijo--2{
+    grid-column: 3/4;
+}
+
+.grid__hijo--3{
+    grid-column: 2/3;
+}
+
+.grid__hijo--4{
+    grid-column: 3/4;
+}
+
+
+h1 {
+    font-size: 70px;
+}
+
+
+p {
+    font-size: 18px;
+    text-align: center;
+
+}
+
+ul {
+    /*aplicando flexbox a la barra de navegacion*/
+    display: flex;
+    flex-direction: row;
+    /*fila*/
+    list-style: none;
+    /*chau puntitos*/
+    padding: 1rem;
+    /*centrando las palabras de la nav*/
+
+
+}
+
+main{
+    min-height: 100vh;
+}
+
+.encabezado{
+    position: fixed;
+    z-index: 10000000;
+    background-color: #836363;
+    display: flex;
+    width: 100%;
+
+}
+
+nav {
+
+    /*alto nav*/
+    text-transform: uppercase;
+    /*mayusc*/
+    font-size: 15px;
+    color: #abd1c6;
+    font-weight: 700;
+
+/*porque cuando fijo la barra de navegacion se me va hacia el lado izquierdo?*/
+}
+
+header {
+    /*barra de navegacion*/
+    display: flex;
+    /*ubico la imagen y la barra EN DIVS al lado. El padre es el header*/
+    justify-content: space-between;
+    align-items: center;
+    /*lleva los elementos de los divs a los extremos*/
+    background-color: #d8aeae;
+
+}
+
+
+
+
+
+.fondo{
+    background-color: #001e1d;
+
+}
+.two__sub{
+    padding-top: 0.5rem;
+}
+
+.two__tit{
+    padding-top: 1rem; 
+}
+
+.comotrabajamos{ /*seguimos en seccion como trabajamos*/ /*como hacer padding aca y porque no me deja?*/
+    display: flex;
+    flex-direction: column; /*aplicando flexbox a todos los elementos de la grid, para luego poder centrar sus elementos y que quede prolijo*/
+    align-items: center; 
+    padding: 1re;
+}
+
+.comotrabajamos__img{
+    width: 200px;
+    height: 200px; /*agrandado de imagen*/
+}
+
+.comotrabajamos__pasion{
+    margin-bottom: 1rem;
+}
+
+.comotrabajamos__calidad{
+    margin-bottom: 1rem;
+}
+
+.comotrabajamos__objetivos{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.comotrabajamos__tecnologias{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.comotrabajamos__p{
+    margin: 0.5rem;
+
+} 
+
+/*cambiar color de fondo a traves de la section que envuelve toda la parte two*/
+
+
+
+.nuestrosservicios{
+    background-color: #333030;
+    height: 300px;
+}
+/*servicios*/
+.servicios{
+    display: flex;
+    justify-content: space-around;
+    background-color: #333030;   
+}
+
+.servicios__flexbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    background-color: #333030; 
+}
+
+
+/*formulario*/
+.formulariofondo{
+    background-color: #8b7f7f;
+    color: black;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+
+}
+
+.formulario__campos{
+    width: 300px;
+}
+
+/*HTML SERVICIOS NUEVOOOOOOO*/
+
+.web{
+    background-color: #0f0b0b;
+}
+
+
+.item1{
+    font-size: 65px;
+    font-weight: 700;
+    padding-top: 2rem;
+    padding-left: 100px;
+    text-align: start;
+}
+
+.item2{
+    font-size: 65px;
+    font-weight: 700;
+    transform: translate(0px, -80px);
+    padding-left: 100px;
+    text-align: start;
+}
+
+.item3{
+    font-size: 65px;
+    font-weight: 700;
+    padding-left: 100px;
+    text-align: start;
+}
+.webflexbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+.webflexbox__p{
+    background-color: #665252; 
+    width: 870px;
+    height: 230px;
+    padding: 3rem;
+    color: #0f0b0b;
+}
+
+.webflexbox__img{
+margin-top: 100px;
+}
+
+.mobileflexbox{
+    display: flex;
+    flex-direction: row;
+}
+
+.responsive{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.celutexto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.celutexto__mover{
+    transform: translate(0, -60px);
+}
+
+/*pagina de servicios (nuevo html)*/
+
+.ipadrotado{
+    transform: rotate(-90deg);
+}
+
+
+
+@media screen and (max-width:1023px) /* coddigo a crear o pisar en vista de tablet*/ {
+
+    
+}
+
+@media screen and (max-width:599px) /*vista de celu*/ {
+
+
+
+
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+
+}
+
+.seccion-bienvenida{
+    width: 100%;
+    background-image: url(./img/chris-ried-ieic5Tq8YMk-unsplash\ \(1\).jpg);
+    background-repeat: no-repeat;
+}  
+
+.grid{
+    display: flex;
+    grid-template-columns: 1fr;
+    grid-template-rows: (4, 200px);
+    grid-template-areas: 
+    "img1"
+    "img2"
+    "img3"
+    "img4"   
+    ;
+    flex-direction: column;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+
+.whatsapp{
+background-color: green;  
+color:white;
+width: 100px;
+padding: 0,5rem 1rem;
+text-align: center;
+list-style: none;
+border-radius: 12px;
+position: fixed;
+right:0;
+bottom: 0;
+}
+
+.whatsapp a{
+    color: white;
+}
+

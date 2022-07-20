@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;700;900&display=swap"
+        rel="stylesheet" />
+    <title>Builder Website</title>
+</head>
+
+<body>
+
+    <header class="encabezado">
+        <div>
+            <img src="./img/logo.jpg" alt="logo" height="30" width="30" />
+        </div>
+
+     
+            <nav>
+                <ul>
+                    <li>
+                        <a href="./index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="./paginas/nosotros.html">Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="./paginas/Servicios.html">Servicios</a>
+                    </li>
+                    <li>
+                        <a href="./paginas/comotrabajamos.html">Como Trabajamos</a>
+                    </li>
+                    <li>
+                        <a href="./paginas/contactanos.html">Contactanos</a>
+                    </li>
+                </ul>
+            </nav>
+        
+
+    </header>
+
+    <main class="home">
+
+        <section class="seccion-bienvenida">
+            <div>
+                <h1>The Builder Website.</h1>
+                <p>
+                    Hagas lo que hagas, es mejor con un sitio web.
+                </p>
+              <!--  <button class="one__boton">EXPLORAR</button> -->
+                <a href="paginas/contactanos.html" class="btn-contacto">Contactanos</a>
+            </div>
+        </section>
+
+        <section class="nosotros">
+            <h2 class="titulo-seccion">Nosotros</h2>
+            <div class="contenedor"> <!--como centrar ayuda-->
+                <p class="contenedor__texto">
+                    Somos una agencia con el objetivo de desarrollar un ecosistema de
+                    herramientas a partir de soluciones digitales enfocadas en las
+                    necesidades de nuestros clientes. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde,
+                    inventore facilis. Nobis consectetur fugit eaque possimus consequuntur quos! Voluptates amet,
+                    veritatis.
+                </p>
+                <div class="contenedor__foto">
+                    <img class="foto" src="./img/programador.jpg" alt="imagen programadores">
+                </div>
+            </div>
+        </section>
+
+
+        <section class="como-trabajamos">
+            <h2 class="titulo-seccion">Como trabajamos</h2>
+
+
+        
+            <div class="grid">
+                <div class="grid__hijo grid__hijo--1 comotrabajamos">
+                    <h2 class="comotrabajamos__calidad">EVALUACION</h2>
+                    <div>
+                        <img class="comotrabajamos__img" src="./img/150.png" alt="logo calidad" />
+                    </div>
+
+                    <p class="comotrabajamos__p">
+                        La misión de nuestra agencia es que cada emprendimiento pueda
+                        comunicar a través de su pagina el verdadero producto. Queremos a nuestro cliente
+                        feliz.
+                    </p>
+                </div>
+
+                <div class="grid__hijo grid__hijo--2 comotrabajamos">
+                    <h2 class="comotrabajamos__pasion">DISEÑO</h2>
+                    <div>
+                        <img class="comotrabajamos__img" src="./img/150.png" alt="logo pasion" />
+                    </div>
+
+                    <p class="comotrabajamos__p">
+                        Nuestra experiencia nos permite combinar las mejores tecnicas diseño para
+                        llegar al resultado mas cercano que nos brinda el cliente. Lorem ipsum dolor.
+                    </p>
+                </div>
+
+                <div class="grid__hijo grid__hijo--3 comotrabajamos">
+                    <h2 class="comotrabajamos__objetivos">DESARROLLO</h2>
+                    <div class="comotrabajamos__img">
+                        <img class="comotrabajamos__img" src="./img/150.png" alt="logo pasion" />
+                    </div>
+                    <p class="comotrabajamos__p">
+                        Vemos el desarrollo de paginas web como un arte y prestamos
+                        excelente atención a los detalles. Y ahi es donde radica la diferencia entre un
+                        buen producto..                       
+                </div>
+
+                <div class="grid__hijo grid__hijo--4 comotrabajamos">
+                    <h2 class="comotrabajamos__tecnologias">CONTROL DE CALIDAD</h2>
+                    <div class="comotrabajamos__img">
+                        <img class="comotrabajamos__img" src="./img/150.png" alt="logo tecnologia" />
+                    </div>
+
+                    <p class="comotrabajamos__p">
+                        Gracias a nuestros softwares desarrollados con las ultimas tecnologías logramos entregarle al cliente un producto que funcione de manera
+                        óptima.     
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="nuestrosservicios">
+            <div>
+                <h2>Servicios</h2>
+            </div>
+            <div class="servicios">
+                <div class="servicios__flexbox"> 
+                    <img src="./img/150.png" alt="Imagen Desarrollo Web">
+                    <h3>Desarrollo Web</h3> 
+                </div>
+
+                <div class="servicios__flexbox">
+                <img src="./img/150.png" alt="Imagen Mobile" />
+                <h3>Desarrollo Mobile</h3>
+                </div>
+
+            <div class="servicios__flexbox">  
+                <img src="./img/150.png" alt="Imagen UX/UI" />
+                <h3> SEO </h3>
+            </div>
+        </section>
+
+
+        <section class="formulariofondo">
+            <div>
+                <h2>Contactanos</h2>
+                <p>
+                Dejanos tus datos y pronto nos comunicaremos contigo.
+                </p>
+            <form class="formulario">
+                <label for="">Nombre:</label>
+                <input class="formulario__campos" type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required />
+
+                <label for="">Apellido:</label>
+                <input class="formulario__campos" type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido" required />
+
+                <label for="">Teléfono:</label>
+                <input class="formulario__campos" type="text" id="telefono" name="telefono" placeholder="Ingrese su telefono" required />
+
+                <label for="">E-mail:</label>
+                <input class="formulario__campos" type="email" id="email" name="email" placeholder="Ingrese su email" required />
+            </form>
+            <div>
+                <button class="formulario__boton">Enviar</button>
+            </div>
+        </section>
+</main>
+
+    <footer>
+            <ul>
+                <li>
+                    <a href="https://www.instagram.com/itsmanolit/" target="_blank">
+                        Instagram
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/itsmanolit/" target="_blank">
+                        Twitter
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/itsmanolit/" target="_blank">
+                        Facebook
+                    </a>
+                </li>
+                <div>
+                    <li>
+                        <a href="https://wa.me/+5401163706717" target="_blank">
+                            Whatsapp
+                        </a>
+                    </li>
+                </div>
+            </ul>
+    </footer>
+</body>
+
+</html>
+
+
+
+
+
+
+<!--<section>
+    <div>
+        <p>PASION</p>
+        <h2>Como trabajamos</h2>
+    </section>
+    <section>
+    </div>
+<div class="flexbox1">
+    <div class="item1">
+        <h2 class="item1__titulo">CALIDAD</h2>
+        <img class ="item1__foto" src="./img/150.png" alt="logo calidad"/>
+        <p>
+            Nuestra experiencia nos permite combinar las mejores tecnicas para
+            llegar al resultado mas cercano que nos brinda el cliente.
+        </p>
+    </div>
+
+    <div class="item2">
+        <h2>PASION</h2>
+        <img src="./img/150.png" alt="logo pasion"/>
+        <p>
+            Vemos el desarrollo de paginas web como un arte y prestamos
+            excelente atención a los detalles. Ahí radica la diferencia entre un
+            buen producto y uno excelente.
+        </p>
+    </div>
+</div>
+<div class="flexbox2">
+    <div class="item3">
+        <h2 class="item3__titulo">OBJETIVOS</h2>
+        <img src="./img/150.png" alt="logo pasion"/>
+        <p>
+            La misión de nuestra agencia es que cada emprendimiento pueda
+            comunicar a través de su sitio web el verdadero producto.
+        </p>
+    </div>
+
+    <div class="item4">
+        <h2 class="item4__titulo">ULTIMAS TECNOLOGIAS</h2>
+        <img src="./img/150.png" alt="logo tecnologia"/>
+        <p>
+            Basados en la ultimas tecnologías contruimos un software que sigue
+            las mismas tendencias y satisface las necesidades del mercado.
+        </p>
+    </div>
+</div>
+</section>
+
+
+.flexbox1{
+    display: flex;
+    padding-left: 662px;
+
+}
+
+.flexbox2{
+    display: flex;
+    padding-left: 662px;
+
+
+
+}
+.item1{
+    background-color: blue;
+        width: 350px;
+        margin: 1rem;
+        padding: 2rem;
+    }
+
+
+.item2{
+    background-color: blueviolet;
+    width: 350px;
+margin: 1rem;
+padding: 2rem;
+}
+
+.item3{
+    background-color: yellow;
+    width: 350px;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+.item4{
+    background-color: aqua;
+    width: 350px;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+.item1__titulo{
+    text-align: center;
+
+}  
+
+.item2__titulo{
+    text-align: center;
+
+
+}
+
+.item3__titulo{
+    text-align: center;
+
+
+}
+.item4__titulo{
+    text-align: center;
+    --!<
