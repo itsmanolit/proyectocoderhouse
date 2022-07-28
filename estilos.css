@@ -114,6 +114,18 @@ main{
     margin: auto;
     margin-top: 2rem;
 }
+
+.titulo-builder{
+    transition: transform 1s;
+}
+
+.titulo-builder:hover{
+    transform: rotate(360deg);
+}
+
+
+
+
 /* SECCION NOSOTROS */
 .nosotros {
     padding: 1.5rem 0;
@@ -207,6 +219,7 @@ main{
     flex-direction: column; /*aplicando flexbox a todos los elementos de la grid, para luego poder centrar sus elementos y que quede prolijo*/
     align-items: center;
 }
+
 
 .como-trabajamos .titulo-seccion{
 
@@ -481,6 +494,7 @@ width:auto;
     font-size: 50px;
     text-align: center;
 }
+
 
 
 
