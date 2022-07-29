@@ -5,11 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="estilos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="estilos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;700;900&display=swap"
-        rel="stylesheet" />  
+        rel="stylesheet" />
+
     <title>Builder Website</title>
 </head>
 
@@ -19,27 +22,27 @@
         <div>
             <img src="./img/logo.jpg" alt="logo" height="30" width="30" />
         </div>
-    
-            <nav>
-                <ul>
-                    <li>
-                        <a href="./index.html">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="./paginas/nosotros.html">Nosotros</a>
-                    </li>
-                    <li>
-                        <a href="./paginas/servicios.html">Servicios</a>
-                    </li>
-                    <li>
-                        <a href="./paginas/comotrabajamos.html">Como Trabajamos</a>
-                    </li>
-                    <li>
-                        <a href="./paginas/contactanos.html">Contactanos</a>
-                    </li>
-                </ul>
-            </nav>
-        
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="./paginas/nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="./paginas/servicios.html">Servicios</a>
+                </li>
+                <li>
+                    <a href="./paginas/comotrabajamos.html">Como Trabajamos</a>
+                </li>
+                <li>
+                    <a href="./paginas/contactanos.html">Contactanos</a>
+                </li>
+            </ul>
+        </nav>
+
 
     </header>
 
@@ -51,14 +54,15 @@
                 <p>
                     Hagas lo que hagas, es mejor con un sitio web.
                 </p>
-            <!--  <button class="one__boton">EXPLORAR</button> -->
+                <!--  <button class="one__boton">EXPLORAR</button> -->
                 <a href="paginas/contactanos.html" class="btn-contacto">Contactanos</a>
             </div>
         </section>
 
         <section class="nosotros">
             <h2 class="titulo-seccion">Nosotros</h2>
-            <div class="contenedor"> <!--como centrar ayuda-->
+            <div class="contenedor">
+                <!--como centrar ayuda-->
                 <p class="contenedor__texto">
                     Somos una agencia con el objetivo de desarrollar un ecosistema de
                     herramientas a partir de soluciones digitales enfocadas en las
@@ -109,7 +113,7 @@
                     <p class="comotrabajamos__p">
                         Vemos el desarrollo de paginas web como un arte y prestamos
                         excelente atención a los detalles. Y ahi es donde radica la diferencia entre un
-                        buen producto..                       
+                        buen producto..
                 </div>
 
                 <div class="grid__hijo grid__hijo--4 comotrabajamos">
@@ -119,8 +123,9 @@
                     </div>
 
                     <p class="comotrabajamos__p">
-                        Gracias a nuestros softwares desarrollados con las ultimas tecnologías logramos entregarle al cliente un producto que funcione de manera
-                        óptima.     
+                        Gracias a nuestros softwares desarrollados con las ultimas tecnologías logramos entregarle al
+                        cliente un producto que funcione de manera
+                        óptima.
                     </p>
                 </div>
             </div>
@@ -132,57 +137,105 @@
                 <h2>Servicios</h2>
             </div>
             <div class="servicios">
-                <div class="servicios__flexbox"> 
+                <div class="servicios__flexbox">
                     <img src="./img/150.png" alt="Imagen Desarrollo Web" width="270">
-                    <h3>Desarrollo Web</h3> 
+                    <h3>Desarrollo Web</h3>
                 </div>
 
                 <div class="servicios__flexbox">
-                <img src="./img/150.png" alt="Imagen Mobile" width="270"/>
-                <h3>Desarrollo Mobile</h3>
+                    <img src="./img/150.png" alt="Imagen Mobile" width="270" />
+                    <h3>Desarrollo Mobile</h3>
                 </div>
 
-            <div class="servicios__flexbox">  
-                <img src="./img/150.png" alt="Imagen UX/UI" width="270"/>
-                <h3> SEO </h3>
-            </div>
+                <div class="servicios__flexbox">
+                    <img src="./img/150.png" alt="Imagen UX/UI" width="270" />
+                    <h3> SEO </h3>
+                </div>
         </section>
 
 
-</main>
+        <!--Aplicando boostrap - CARROUSEL-->
+        
+
+<div class="container">
+
+    <div class="row">
+        
+        <div class="col-lg-8 offset-lg-2">
+
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="/img/carrousel.jpg" class="d-block w-100" alt="carousel">
+                        
+                            
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="/img/carrousel-2.jpg" class="d-block w-100" alt="carousel">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/img-carrousel1.jpg" class="d-block w-100" alt="carousel">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+    
+    </div>
+
+</div>
+
+
+
+    </main>
 
     <footer class="footer">
-            <ul>
+        <ul>
+            <li>
+                <a href="https://www.instagram.com/itsmanolit/" target="_blank">
+                    Instagram
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/itsmanolit/" target="_blank">
+                    Twitter
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/itsmanolit/" target="_blank">
+                    Facebook
+                </a>
+            </li>
+            <div>
                 <li>
-                    <a href="https://www.instagram.com/itsmanolit/" target="_blank">
-                        Instagram
+                    <a href="https://wa.me/+5401163706717" target="_blank">
+                        Whatsapp
                     </a>
                 </li>
-                <li>
-                    <a href="https://www.instagram.com/itsmanolit/" target="_blank">
-                        Twitter
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/itsmanolit/" target="_blank">
-                        Facebook
-                    </a>
-                </li>
-                <div>
-                    <li>
-                        <a href="https://wa.me/+5401163706717" target="_blank">
-                            Whatsapp
-                        </a>
-                    </li>
-                </div>
-            </ul>
+            </div>
+        </ul>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
-
-
-
-
-
-

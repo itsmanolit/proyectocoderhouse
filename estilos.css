@@ -8,15 +8,27 @@
 a {
     color: #0f0b0b;
     padding: 0.6rem;
+    text-decoration: none;
 }
 
 a:hover{
     padding: 0.5rem;
+    color: #1a2421;
     background-color: rgb(172, 138, 144);
+}
+
+dl, ol, ul{
+    margin-bottom: 0;
 }
 
 h1 {
     font-size: 70px;
+}
+
+h2{
+    /*pisando boostrap*/
+    margin-bottom: 0%;
+    text-align: center;
 }
 
 
@@ -134,9 +146,10 @@ main{
 }
 .nosotros .titulo-seccion{
     font-size: 60px;
-    transform: translate(-350px, 120px); /*esto esta bien??? valores tan grandes?*/
-
+    /*esto esta bien??? valores tan grandes?*/
 }
+
+
 
 .nosotros .contenedor{
     display: flex;
@@ -360,6 +373,7 @@ main{
     justify-content: space-evenly;
     margin-top: 3rem;
 }
+
 
 
 
