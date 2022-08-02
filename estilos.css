@@ -21,8 +21,13 @@ dl, ol, ul{
     margin-bottom: 0;
 }
 
+
+body{
+    background-color:#654d4d
+}
+
 h1 {
-    font-size: 70px;
+    font-size: 55px; /*no puedo achicar las tipografiasssss*/
 }
 
 h2{
@@ -37,6 +42,8 @@ p {
     text-align: center;
 
 }
+
+
 
 ul {
     /*aplicando flexbox a la barra de navegacion*/
@@ -95,6 +102,8 @@ main{
 }
 .titulo-seccion{
     text-align: center;
+    font-size: 25px;
+
 }
 
 
@@ -269,17 +278,20 @@ main{
 
 } 
 
-/*cambiar color de fondo a traves de la section que envuelve toda la parte two*/
+.nuestros-servicios{
+    padding: 1rem;
+    text-align: center;
+    font-size: 12px;
+}
 
 
 
-.nuestrosservicios{
+
+/*.nuestrosservicios{
     background-color: #333030;
 
 }
 
-
-/*servicios*/
 .servicios{
     display: flex;
     justify-content: space-around;
@@ -291,7 +303,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center; 
-}
+}/*
 
 
 /*formulario*/
@@ -374,6 +386,25 @@ main{
     margin-top: 3rem;
 }
 
+.card-text{
+    color: #000;
+    background-color: #836363;
+}
+
+/*seccion contacto*/
+
+.contacto2{
+    padding: 2rem 0;
+}
+.contacto2__mapa{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btn{
+    padding: 1px 1px 1px 1px;
+}
 
 
 
@@ -383,10 +414,14 @@ main{
     /*fila*/
     list-style: none;
     /*chau puntitos*/
-    padding: 1rem;
     /*centrando las palabras de la nav*/
     justify-content: center;
+    align-items: center;
     background-color: #726c6c;
+    position: fixed;
+	width: 100%;
+	height: 40px;
+	bottom: 0;
 }
 
 
