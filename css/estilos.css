@@ -112,13 +112,13 @@ main{
 /* SECCION BIENVENIDA */
 
 .home .seccion-bienvenida{
-     /*inicio 1 the builder...*/
-     width: 100%;
-     background: url(img/fondo-home.jpg) no-repeat center center #423c3cb5;
-     background-size: cover;
-     background-blend-mode: multiply;
-     text-align: center;
-     padding: 5rem;
+    /*inicio 1 the builder...*/
+    width: 100%;
+    background: url(img/fondo-home.jpg) no-repeat center center #423c3cb5;
+    background-size: cover;
+    background-blend-mode: multiply;
+    text-align: center;
+    padding: 5rem;
 }
 .home .seccion-bienvenida .btn-contacto {
     /*boton del inicio 1 the builder...*/
@@ -134,13 +134,10 @@ main{
     max-width: 120px;
     margin: auto;
     margin-top: 2rem;
-}
-
-.titulo-builder{
     transition: transform 1s;
 }
 
-.titulo-builder:hover{
+.btn-contacto:hover{
     transform: rotate(360deg);
 }
 
@@ -155,7 +152,6 @@ main{
 }
 .nosotros .titulo-seccion{
     font-size: 60px;
-    /*esto esta bien??? valores tan grandes?*/
 }
 
 
