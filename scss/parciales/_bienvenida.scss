@@ -1,0 +1,33 @@
+/* PAGINA INICIO */
+
+/* SECCION BIENVENIDA */
+
+.home .seccion-bienvenida{
+    /*inicio 1 the builder...*/
+    width: 100%;
+    background: url(img/fondo-home.jpg) no-repeat center center #423c3cb5;
+    background-size: cover;
+    background-blend-mode: multiply;
+    text-align: center;
+    padding: 5rem;
+}
+.home .seccion-bienvenida .btn-contacto {
+    /*boton del inicio 1 the builder...*/
+    background-color: #f9bc60e6;
+    color: #001e1d;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 10px;
+    margin-top: 3rem;
+    border-radius: 7px;
+    text-align: center;
+    display: block;
+    max-width: 120px;
+    margin: auto;
+    margin-top: 2rem;
+    transition: transform 1s;
+}
+
+.btn-contacto:hover{
+    transform: rotate(360deg);
+}

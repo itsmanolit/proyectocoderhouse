@@ -114,7 +114,8 @@ main{
 .home .seccion-bienvenida{
     /*inicio 1 the builder...*/
     width: 100%;
-    background: url(img/fondo-home.jpg) no-repeat center center #423c3cb5;
+    background-image: url(img/fondo-home.jpg) no-repeat;
+    background-color: #0f0b0b;
     background-size: cover;
     background-blend-mode: multiply;
     text-align: center;
@@ -210,12 +211,6 @@ main{
 .grid__hijo--4{
     grid-column: 3/4;
 }
-
-*/
-
-
-
-
 
 
 .fondo{
@@ -438,15 +433,16 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 
 
 }
 
 .seccion-bienvenida{
     width: 100%;
-    background-image: url(./img/chris-ried-ieic5Tq8YMk-unsplash\ \(1\).jpg);
+    background-image: url(/img/fondo-home.jpg); 
     background-repeat: no-repeat;
-}  
+}  ;
 
 
 .como-trabajamos .grid{
